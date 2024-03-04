@@ -85,4 +85,12 @@ if __name__ == "__main__":
 <p>
   A segunda linha é extremamente comum em códigos Python. """if __name__ == "__main__":""". if: significa "se:", se uma condição for atendida e nesse caso a condição é __name__ == "__main__". == é um comparador de igualdade, se o número antes dele é igual ao número após ele. Name como eu disse é a máquina e "main" é traduzido como "principal", se a sua máquina for a principal, se o código realmente estiver sendo executado no seu aparelho o código pode seguir, caso não esteja não pode. Por exemplo, não tem como usar nada com essa linha no google colab, pois nele você está usando o servidor do google.
 </p>
+<p>
+  O próximo trecho a se comentar é:
+</p>
+
+```
+app.config["SECRET"] = "ajuiahfa78fh9f78shfs768fgs7f6"
+#app.config["DEBUG"] = True
+```
 
