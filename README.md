@@ -56,3 +56,18 @@ def home():
 if __name__ == "__main__":
     socketio.run(app, host='localhost')
 ```
+
+<p>E agora vamos destrinchar o código linha a linha. Começando por:</p>
+
+```
+from flask import Flask, render_template
+from flask_socketio import SocketIO, send
+```
+
+<p>
+  Começamos como de costume importando as dependências necessárias. "Flask" e "render_templete" são módulos da biblioteca "flask". Como é de se imaginar, "Flask" é o módulo principal dessa biblioteca e está em todo uso dela e "render_template" é usada para renderizar o nosso front-end que está se chamando "templates".
+</p>
+<p>
+  Além disso importamos "SocketIO" e "send" da biblioteca "flask_socketio". Em qualquer linguagem, "Socket" é usada para criar pontes conectando diversos aparelhos, normalmente para chats, mas também é possível usar web sockets para jogos online multiplayer por exemplo, em outras palavras, ela permite troca de informações em tempo real.
+</p>
+
