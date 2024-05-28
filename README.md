@@ -89,7 +89,7 @@ if __name__ == "__main__":
   O próximo trecho a se comentar é:
 </p>
 
-```
+```python
 app.config["SECRET"] = "ajuiahfa78fh9f78shfs768fgs7f6"
 #app.config["DEBUG"] = True
 ```
