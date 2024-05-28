@@ -2,7 +2,7 @@
 <p>
   Se ler a documentação do Flask irá encontrar:
 
-```
+```python
 from flask import Flask
 
 app = Flask(__name__)
@@ -35,7 +35,7 @@ SMS 2/
   templates é o nome padrão para a pasta do font-end no Flask e o main.py que é o que nos interessa é:
 </p>
 
-```
+```python
 from flask import Flask, render_template
 from flask_socketio import SocketIO, send
 
@@ -59,7 +59,7 @@ if __name__ == "__main__":
 
 <p>E agora vamos destrinchar o código linha a linha. Começando por:</p>
 
-```
+```python
 from flask import Flask, render_template
 from flask_socketio import SocketIO, send
 ```
@@ -71,7 +71,7 @@ from flask_socketio import SocketIO, send
   Além disso importamos "SocketIO" e "send" da biblioteca "flask_socketio". Em qualquer linguagem, "Socket" é usada para criar pontes conectando diversos aparelhos, normalmente para chats, mas também é possível usar web sockets para jogos online multiplayer por exemplo, em outras palavras, ela permite troca de informações em tempo real. E nesse caso estamos usando a SocketIO de dentro do próprio Flask, junto com um módulo dela para realizar o envio de mensagens, o "send" que traduzindo, "enviar".
 </p>
 
-```
+```python
 app = Flask(__name__)
 if __name__ == "__main__":
 ```
